@@ -1,4 +1,7 @@
-/*3.1 WAP TO PRINT THE FIBONACCI SERIES
+// LOOP CONSTRUCT
+
+
+/* 3.1 WRITE A C PROGRAM TO PRINT FIBONACCI SERIES
 #include<stdio.h>
 int main()
 {
@@ -22,8 +25,10 @@ int main()
     }
     printf("\n");
     return 0;
-}*/
-/*3.2 WAP TO ENTER A NUMBER FROM USER CHECK THAT NUMBER IS PRIME OR NOT.
+} */
+
+
+/* 3.2 WAP TO ENTER A NUMBER FROM USER THAN CHECK THAT NUMBER IS PRIME OR NOT.
 #include<stdio.h>
 int main()
 {
@@ -54,8 +59,10 @@ int main()
       printf("%d is not a prime number \n",num);
     }
     return 0;
-}*/
-/*3.3WAP TO PRINT A MULTIPLICATION TABLE OF N NUMBER IN REVERSE WORDS.
+} */
+
+
+/* 3.3 WAP TO PRINT A MULTIPLICATION TABLE OF N NUMBER IN REVERSE ORDER.
 #include<stdio.h>
 int main()
 {
@@ -68,8 +75,10 @@ int main()
        printf("%d%d=%d \n",n,i,n*i);
    }
    return 0;
-}*/
-/*3.4WAP TO ENTER A NUMBER FROM USER REVERSE THAT NUMBER.
+} */
+
+
+/* 3.4 WAP TO ENTER A NUMBER FROM USER REVERSE THAT NUMBER.
 #include<stdio.h>
 int main()
 {
@@ -83,8 +92,10 @@ int main()
     }
     printf("renum=%d\n",renum);
     return 0;
-}*/
-/*3.5WAP ENTER A NUMBER FROM USER CHECK THAT IS NUMBER ARMESTRONG OR NOT.
+} */
+
+
+/* 3.5 WAP TO ENTER A NUMBER FROM USER CHECK THAT NUMBER IS ARMSTRONG OR NOT.
 #include<stdio.h>
 #include<math.h>
 int main() {
@@ -103,8 +114,10 @@ int main() {
     }
     printf("Exiting program...\n");
     return 0;
-}*/
-/*3.6WAP TO FIND OUT THE VALUE OF X RAISED TO THE POWER Y,WHERE X AND Y ARE POSITIVE INTEGER
+} */
+
+
+/* 3.6 WAP TO FIND OUT THE VALUE OF X RAISED TO THE POWER Y, WHERE X AND Y ARE POSITIVE INTEGERS.
 #include <stdio.h>
 int main() {
     int x, y,i;
@@ -122,8 +135,10 @@ int main() {
 }
     printf("%d raised to the power %d is: %lld\n", x, y, result);
     return 0;
-}*/
-/*3.7WAP TO FIND THE H.C.F OF TWO NUMBERS.
+} */
+
+
+/* 3.7 WRITE A C PROGRAM TO FIND THE H.C.F. OF TWO NUMBERS.
 #include <stdio.h>
 int main() {
     int num1, num2, i, hcf;
@@ -136,12 +151,15 @@ int main() {
     }
     printf("HCF of %d and %d is: %d\n", num1, num2, hcf);
     return 0;
-}*/
-/*3.8WAP TO RECEIVE A FIVE DIGIT NO AND DISPLAY AS LIKE:24689:
-2
-4
-6
-8
+} */
+
+
+/* 3.8 WRITE A PROGRAM TO RECEIVE A FIVE-DIGIT NO AND DISPLAY AS LIKE 
+24689: 
+2 
+4 
+6 
+8 
 9
 #include <stdio.h>
 int main() {
@@ -158,8 +176,10 @@ int main() {
         num = num / 10;      
     }
     return 0;
-}*/
-/*3.9GUESS THE LOWER NUMBER AND HIGHER.
+} */
+
+
+/* 3.9 NUMBER GUESSING GAME, FIND THE LOWER AND HIGHER NUMBER.
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
@@ -188,8 +208,10 @@ int main()
          }
          }while(guess!=number);
          return 0;
-}*/
-/* 10.RIGHT TRIANGLE PATTERN
+} */
+
+
+/* 3.10 RIGHT TRIANGLE STAR PATTERN.
 #include<stdio.h>
 int main()
 {
@@ -208,8 +230,10 @@ int main()
      printf("\n");
    }
    return 0;
-}*/
-/*11.HOLLOW MIRRORED RIGHT TRIANGLE STAR PATTERN.
+} */
+
+
+/* 3.11 HOLLOW MIRRORED RIGHT TRIANGLE STAR PATTERN.
 #include <stdio.h>
 int main()
 {
@@ -239,8 +263,10 @@ int main()
     }
 
     return 0;
-}*/
-/*12.
+} */
+
+
+/* 3.12
 #include<stdio.h>
 #include<ctype.h>
 int main( )
@@ -259,4 +285,4 @@ int main( )
    printf("\n");
   }
   return 0;
-}*/
+} */
