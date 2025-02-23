@@ -1,5 +1,7 @@
-    //BIT MANIPULATION
-/*1.PRINT THE POWER OF ANY NUMBER.
+// BIT MANIPULATION
+
+
+/* 1. PRINT THE POWER OF ANY NUMBER.
 #include <stdio.h>
 int main() {
     int base, exp;
@@ -14,8 +16,10 @@ int main() {
     }
     printf("Answer is  %.0Lf", result);
     return 0;
-}*/
-/*2.GIVE AN ITEGER N, CALCULATE THE SQUARE OF A NUMBER WITOUT USING *,AND POW().
+} */
+
+
+/* 2. GIVE AN ITEGER N, CALCULATE THE SQUARE OF A NUMBER WITOUT USING *,AND POW().
 #include<stdio.h>
 int main() {
     int n, i, square = 0;
@@ -26,6 +30,4 @@ int main() {
     }
     printf("The square of %d is: %d\n", n, square);
     return 0;
-}*/
-
-
+} */
