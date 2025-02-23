@@ -237,6 +237,7 @@ int main()
    return 0;
 } */
 
+
 /* 1.15 FIND EXACT POWER OF 2 OF A GIVEN NUMBER USING BITWISE OPERATOR.
 #include<stdio.h>
 int main()
