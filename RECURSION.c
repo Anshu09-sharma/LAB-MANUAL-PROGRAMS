@@ -1,4 +1,7 @@
-/*Write a program to calculate the GCD of given number using recursion.
+// RECURSION
+
+
+/* 1. Write a program to calculate the GCD of given number using recursion.
 #include <stdio.h>
 int gcd(int a, int b) {
     if (b == 0)
@@ -11,8 +14,10 @@ int main() {
     scanf("%d %d", &num1, &num2);
     printf("The GCD of %d and %d is: %d\n", num1, num2, gcd(num1, num2));
     return 0;
-}*/
-//2 Write a program to find the sum of digits of a 5 digit number using recursion.
+} */
+
+
+/* 2. Write a program to find the sum of digits of a 5 digit number using recursion.
 #include <stdio.h>
 int sumOfDigits(int num) {
     if (num == 0)
@@ -31,5 +36,4 @@ int main() {
     printf("The sum of the digits of %d is: %d\n", number, sum);
 
     return 0;
-}
-
+} */
