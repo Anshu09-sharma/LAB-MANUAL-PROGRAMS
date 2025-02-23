@@ -1,5 +1,6 @@
-/*1.Write a program, enter n elements into an array, performCO4INTEGER ARRAYlinear search in c 
-//program
+// ONE DIMENSION INTEGER ARRAY
+
+/* 1. Write a program, enter n elements into an array, performCO4INTEGER ARRAYlinear search in c program.
 #include <stdio.h>
 int linearSearch(int arr[], int n, int target) {
     for (int i = 0; i < n; i++) {
@@ -28,8 +29,10 @@ int main() {
         printf("Element %d not found in the array.\n", target);
     }
     return 0;
-}*/
-/*WAP ENTER N ELEMENTS INTO AN ARRAY. PERFORM BINARY SEARCH.
+} */
+
+
+/* 2. WAP ENTER N ELEMENTS INTO AN ARRAY. PERFORM BINARY SEARCH.
 #include <stdio.h>
 int binarySearch(int arr[], int n, int target) {
     int left = 0, right = n - 1;
@@ -83,8 +86,10 @@ int main() {
         printf("Element %d not found in the array.\n", target);
     }
     return 0;
-}*/
-/*WAP ENTER N ELEMENTS INTO AN ARRAY,PERFORM REVERSE OPREACTION.
+} */
+
+
+/* 3. WAP ENTER N ELEMENTS INTO AN ARRAY,PERFORM REVERSE OPREACTION.
 #include <stdio.h>
 void reverseArray(int arr[], int n) {
     int temp;
@@ -115,8 +120,10 @@ int main() {
     }
     printf("\n");
     return 0;
-}*/
-/* WAP TO DELETE DUPLICATE ELEMENT IN A LIST OF 10 ELEMENT AND DISPLAY IT ON SCREEN.
+} */
+
+
+/* 4. WAP TO DELETE DUPLICATE ELEMENT IN A LIST OF 10 ELEMENT AND DISPLAY IT ON SCREEN.
 #include <stdio.h>
 int main() {
     int arr[10], i, j, k, n = 10;
@@ -140,8 +147,10 @@ int main() {
         printf("%d ", arr[i]);
     }
     return 0;
-}*/
-//WAP TO MERGE TWO SORTED ARRAY AND NO ELEMENT IS REPEATED DURING MURGING.
+} */
+
+
+/* 5. WAP TO MERGE TWO SORTED ARRAY AND NO ELEMENT IS REPEATED DURING MURGING.
 #include <stdio.h>	
 void mergeSortedArrays(int arr1[], int n1, int arr2[], int n2) {
     int merged[n1 + n2];  
@@ -193,7 +202,4 @@ int main() {
 
     mergeSortedArrays(arr1, n1, arr2, n2);
     return 0;
-}
-
-
-
+} */
