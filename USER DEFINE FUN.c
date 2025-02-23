@@ -1,5 +1,7 @@
-/*1.WRITE A PROGRAM TO PRINT OUT ALL THE ARMESTRONG NUMBER BETWEEN 100 AND 500 USING USER DEFINE
-//FUNCTION.
+// USER DEFINE FUNCTION
+
+
+/* 1. WRITE A PROGRAM TO PRINT OUT ALL THE ARMESTRONG NUMBER BETWEEN 100 AND 500 USING USER DEFINE FUNCTION.
 #include <stdio.h>
 #include <math.h>
 int isArmstrong(int num) {
@@ -26,8 +28,10 @@ int main() {
     }
     printf("\n");
     return 0;
-}*/
-/*WAP TO PRINT THE ENTIRE PRIME NO. BETWEEN 1 AND 300 USING USER DEFINE FUNCTION.
+} */
+
+
+/* 2. WAP TO PRINT THE ENTIRE PRIME NO. BETWEEN 1 AND 300 USING USER DEFINE FUNCTION.
 #include <stdio.h>
 int isPrime(int num) {
     if (num <= 1) {
@@ -51,8 +55,10 @@ int main()
     }
     printf("\n");
     return 0;
-}*/
-/*WAP TO FIND SUM OF FIBONACCI SERIES UP TO N USING FUNCTION.
+} */
+
+
+/* 3. WAP TO FIND SUM OF FIBONACCI SERIES UP TO N USING FUNCTION.
 #include <stdio.h>
 int fibonacciSum(int n) {
     int a = 0, b = 1, sum = 0;
@@ -78,7 +84,4 @@ int main() {
     int sum = fibonacciSum(n);
     printf("The sum of the first %d Fibonacci numbers is: %d\n", n, sum);
     return 0;
-}*/
-
-
-
+} */
